@@ -5,14 +5,6 @@ This package implements constant pH simulations with OpenMM.
 **Warning:** This is still prerelease code.  It has not yet been well validated.  You are
 encouraged to test it and give feedback, but do not rely on the results to be accurate.
 
-**Note:** This package requires changes that were made to OpenMM after 8.2.0 was released.
-To use it, you should either build OpenMM from the latest development code, or install the
-most recent development build with
-
-```
-mamba install -c conda-forge/label/openmm_dev openmm
-```
-
 For instructions on how to use it, see [the tutorial](Tutorial.ipynb).
 
 This package is based on the algorithm described in the following paper, except that it uses
